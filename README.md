@@ -1,126 +1,30 @@
-# UG-Research
+# Rectorat
 
-Plateforme de gestion des chercheurs de l'Université de Gabès
+*Automatically synced with your [v0.dev](https://v0.dev) deployments*
 
-## Description
+[![Deployed on Vercel](https://img.shields.io/badge/Deployed%20on-Vercel-black?style=for-the-badge&logo=vercel)](https://vercel.com/issrasaidi13-gmailcoms-projects/v0-rectorat-bb)
+[![Built with v0](https://img.shields.io/badge/Built%20with-v0.dev-black?style=for-the-badge)](https://v0.dev/chat/projects/jWy3DMI6mHd)
 
-UG-Research est une application web moderne développée avec Next.js 14 qui permet de centraliser et gérer l'ensemble des activités de recherche de l'Université de Gabès.
+## Overview
 
-## Fonctionnalités principales
+This repository will stay in sync with your deployed chats on [v0.dev](https://v0.dev).
+Any changes you make to your deployed app will be automatically pushed to this repository from [v0.dev](https://v0.dev).
 
-- 🔐 **Authentification LDAP** - Connexion avec les identifiants universitaires
-- 👥 **Gestion des profils** - Profils complets des chercheurs
-- 📚 **Base de publications** - Gestion des publications scientifiques
-- 🎯 **Projets de recherche** - Suivi des projets et collaborations
-- 💬 **Messagerie** - Communication entre chercheurs
-- 📊 **Tableaux de bord** - Analytics et métriques de recherche
-- 🔍 **Recherche avancée** - Moteur de recherche intelligent
+## Deployment
 
-## Technologies utilisées
+Your project is live at:
 
-- **Frontend**: Next.js 14, React 18, TypeScript
-- **UI**: Tailwind CSS, shadcn/ui
-- **Backend**: Next.js API Routes, Prisma ORM
-- **Base de données**: PostgreSQL
-- **Authentification**: NextAuth.js avec LDAP
-- **Déploiement**: Vercel
+**[https://vercel.com/issrasaidi13-gmailcoms-projects/v0-rectorat-bb](https://vercel.com/issrasaidi13-gmailcoms-projects/v0-rectorat-bb)**
 
-## Installation
+## Build your app
 
-1. Cloner le repository
-\`\`\`bash
-git clone https://github.com/ug-gabes/ug-research.git
-cd ug-research
-\`\`\`
+Continue building your app on:
 
-2. Installer les dépendances
-\`\`\`bash
-npm install
-\`\`\`
+**[https://v0.dev/chat/projects/jWy3DMI6mHd](https://v0.dev/chat/projects/jWy3DMI6mHd)**
 
-3. Configurer les variables d'environnement
-\`\`\`bash
-cp .env.example .env.local
-\`\`\`
+## How It Works
 
-4. Configurer la base de données
-\`\`\`bash
-npx prisma migrate dev
-npx prisma db seed
-\`\`\`
-
-5. Lancer l'application
-\`\`\`bash
-npm run dev
-\`\`\`
-
-## Configuration
-
-### Variables d'environnement
-
-\`\`\`env
-# Base de données
-DATABASE_URL="postgresql://user:password@localhost:5432/ug_research"
-
-# NextAuth
-NEXTAUTH_URL="http://localhost:3000"
-NEXTAUTH_SECRET="your-secret-key"
-
-# LDAP
-LDAP_URL="ldap://ldap.ug.edu.tn"
-LDAP_BIND_DN="cn=admin,dc=ug,dc=edu,dc=tn"
-LDAP_BIND_PASSWORD="password"
-LDAP_SEARCH_BASE="ou=people,dc=ug,dc=edu,dc=tn"
-
-# APIs externes
-ORCID_CLIENT_ID="your-orcid-client-id"
-ORCID_CLIENT_SECRET="your-orcid-client-secret"
-\`\`\`
-
-## Structure du projet
-
-\`\`\`
-src/
-├── app/                    # App Router (Next.js 14)
-│   ├── (auth)/            # Routes d'authentification
-│   ├── (dashboard)/       # Routes du tableau de bord
-│   ├── api/               # API Routes
-│   └── globals.css        # Styles globaux
-├── components/            # Composants réutilisables
-│   ├── ui/               # Composants de base (shadcn/ui)
-│   ├── forms/            # Formulaires
-│   └── layout/           # Composants de mise en page
-├── lib/                  # Utilitaires et configurations
-├── hooks/                # Hooks personnalisés
-├── types/                # Types TypeScript
-└── docs/                 # Documentation
-\`\`\`
-
-## Contribution
-
-1. Fork le projet
-2. Créer une branche feature (`git checkout -b feature/nouvelle-fonctionnalite`)
-3. Commit les changements (`git commit -am 'Ajout nouvelle fonctionnalité'`)
-4. Push vers la branche (`git push origin feature/nouvelle-fonctionnalite`)
-5. Créer une Pull Request
-
-## Documentation
-
-- [Guide utilisateur](./docs/guide-utilisateur.md)
-- [Rapport technique](./docs/rapport-technique-complet.md)
-- [API Documentation](./docs/api.md)
-
-## Support
-
-Pour toute question ou problème :
-
-- **Email**: support-ugresearch@ug.edu.tn
-- **Issues**: [GitHub Issues](https://github.com/ug-gabes/ug-research/issues)
-
-## Licence
-
-Ce projet est sous licence MIT. Voir le fichier [LICENSE](LICENSE) pour plus de détails.
-
----
-
-**Développé avec ❤️ par l'équipe technique de l'Université de Gabès**
+1. Create and modify your project using [v0.dev](https://v0.dev)
+2. Deploy your chats from the v0 interface
+3. Changes are automatically pushed to this repository
+4. Vercel deploys the latest version from this repository

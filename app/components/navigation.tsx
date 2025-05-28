@@ -116,6 +116,3 @@ export function Navigation() {
     </nav>
   )
 }
-
-// Export par défaut
-export default Navigation
