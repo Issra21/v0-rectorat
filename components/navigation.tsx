@@ -117,5 +117,5 @@ export function Navigation() {
   )
 }
 
-// Export par défaut
+// Export par défaut pour satisfaire les imports
 export default Navigation
